@@ -9,7 +9,7 @@ const TeacherSecond = () => {
 
   const get_mentor = async () => {
     try {
-      const res = await axios.get(`http://127.0.0.1:8000/api/flower/get`);
+      const res = await axios.get(`https://schoolwebsite-backend-1us4.onrender.com/api/flower/get`);
       console.log(res.data.data, "rsds");
       setData(res.data.data);
     } catch (err) {

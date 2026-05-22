@@ -59,7 +59,7 @@ const ContactSecond = () => {
                 subject :subject,
                 message : message
             }
-             const res = await axios.post(`http://127.0.0.1:8000/api/message/mailSend`,data)
+             const res = await axios.post(`https://schoolwebsite-backend-1us4.onrender.com/api/message/mailSend`,data)
   console.log(res,'rsds')
          }
          catch(err){
