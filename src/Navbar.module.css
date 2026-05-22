@@ -1,0 +1,186 @@
+.first{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+.wrapper{
+    /* border: 1px solid; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    /* border: 1px solid; */
+    width: 300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.kid{
+    /* border: 1px solid; */
+    width: 450px;
+    font-family: cursive;
+    color: #17a2b8;
+    font-size: 35px;
+}
+.join{
+    border-radius: 23px;
+    font-size: 17px;
+    padding: 15px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    width: 100%;
+    /* cursor: pointer; */
+}
+.join:hover{
+    background-color: #1ea7b6;
+}
+.navlink{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 550;
+    width: 80%;   
+}
+.navlink a:hover {
+  color: #1ea7b6;  
+}
+.navlink a{
+     text-decoration: none !important;
+     color: #0b3c49;
+}
+.down{
+    position: relative;
+    bottom: 4px;
+}
+.wrap {
+   /* border: 1px solid; */
+  position: relative;
+}
+.dropdownContent {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: white;
+  display: none;
+  flex-direction: column;
+  min-width: 150px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+.dropdownContent a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.wrap:hover .dropdownContent {
+  display: flex;
+}
+.second{
+    /* border: 1px solid; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.hamburger{
+    display: none;
+}
+.navlinks{
+    display: none;
+    padding: 20px;
+}
+.joins{
+    display: none;
+}
+.media{
+    border: 1px solid;
+    background-color: #3b5d50;
+    position: relative;
+    top: 40%;
+    display: none;  
+}
+
+@media screen and (max-width:576px) {
+    .first{
+        width:100%;
+    }
+    .kid{
+        font-size: 25px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .second{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+        position: relative;
+        right: 20px;
+    }
+    .media{
+         width: 50%;
+        position: relative;
+        left: 5px;
+        top: 150%;
+        /* display: none; */
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    .first{
+        width:100%;
+    }
+    .kid{
+        font-size: 35px;
+        /* border: 1px solid; */
+    }
+    .second{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+        position: relative;
+        right: 20px;
+    }
+    .media{
+         width: 50%;
+        position: relative;
+        left: 5px;
+        top: 150%;
+        /* display: none; */
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    .first{
+        width:100%;
+    }
+    .kid{
+        font-size: 35px;
+    }
+    .second{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+        position: relative;
+        right: 20px;
+    }
+    .media{
+         width: 50%;
+        position: relative;
+        left: 5px;
+        top: 150%;
+        /* display: none; */
+    }
+}

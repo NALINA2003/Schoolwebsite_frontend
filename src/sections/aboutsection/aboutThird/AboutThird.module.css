@@ -1,0 +1,138 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
+.first{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    /* border: 1px solid; */
+    width: 90%;
+}
+.grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    margin-top: 100px;
+    gap: 20px;
+}
+.word{
+     font-family: "Handlee", cursive;
+     color:  #00394F;
+     font-size: 20px;
+}
+.word1{
+    font-family: "Nunito", sans-serif;
+    color: #666666;
+}
+.grid1{
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.img1{
+    width: 60px;   
+    margin-top: 40px;
+    fill: #17a2b8;
+}
+.img1 img{
+    width: 100%;
+}
+.grid2{
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.img2{
+    width: 60px;   
+    margin-top: 40px;
+}
+.img2 img{
+    width: 100%;
+}
+.grid3{
+     /* border: 1px solid; */
+     border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.img3{
+    width: 60px;   
+    margin-top: 40px;
+}
+.img3 img{
+    width: 100%;
+}
+.grid4{
+     /* border: 1px solid; */
+     border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.img4{
+    width: 60px;   
+    margin-top: 40px;
+}
+.img4 img{
+    width: 100%;
+}
+.grid5{
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.img5{
+    width: 60px;   
+    margin-top: 40px;
+}
+.img5 img{
+    width: 100%;
+}
+.grid6{
+     /* border: 1px solid; */
+     border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.img6{
+    width: 60px;   
+    margin-top: 40px;
+}
+.img6 img{
+    width: 100%;
+}
+@media screen and (max-width:576px) {
+    .container{
+        width:100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }  
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+       
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}

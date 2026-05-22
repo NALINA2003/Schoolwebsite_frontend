@@ -1,0 +1,511 @@
+.first{
+    margin-top: 10px;
+    background-color: #00394F;  
+}
+.first1{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    /* border: 1px solid; */
+    width: 90%;
+    display: flex;
+    
+}
+.one{
+    /* border: 1px solid; */
+    padding: 20px;
+    width: 40%;
+}
+.logo{
+    display: flex;
+    color: #17a2b8;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+   
+}
+.img{
+    /* border: 1px solid; */
+     height: 80px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.kid{
+    font-size: 30px;
+    font-family: "Handlee", cursive ;
+    color: white;
+   
+}
+.para{
+    /* border: 1px solid; */
+    /* width: 250px; */
+  color: white;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+   gap: 25px;
+   /* border: 1px solid; */
+   padding: 10px;
+}
+.icon1{
+    border: 1px solid #17a2b8;
+    border-radius: 50%;
+    padding: 15px;
+    color: #17a2b8;
+}
+.icon2{
+    border: 1px solid #17a2b8;
+    border-radius: 50%;
+   
+    padding: 15px;
+     color: #17a2b8;
+
+}
+.icon3{
+   border: 1px solid #17a2b8;
+    border-radius: 50%;
+    padding: 15px;
+    color: #17a2b8;
+}
+.icon4{
+   border: 1px solid #17a2b8;
+    border-radius: 50%;
+    padding: 15px;
+    color: #17a2b8;
+}
+.second{
+    /* border: 1px solid; */
+    padding: 20px;
+    width: 40%;
+}
+.get{
+    color: #17a2b8;
+    font-family: "Handlee", cursive ;
+    font-size: 25px;
+}
+.address{
+    display: flex;
+    gap: 20px;
+}
+.address1{
+    color: white;
+}
+.address2{
+     font-family: "Handlee", cursive ;
+}
+.address3{
+    font-family: "Nunito", sans-serif;
+}
+.icon5{
+    position: relative;
+    top: 34px;
+    font-size: 25px;
+    color: #17a2b8;
+}
+.email{
+    display: flex;
+    gap: 20px;
+
+}
+.email1{
+    color: white;
+}
+.email2{
+     font-family: "Handlee", cursive ;
+}
+.email3{
+    font-family: "Nunito", sans-serif;
+}
+.icon6{
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    color: #17a2b8;
+}
+.phone{
+    display: flex;
+    gap: 20px;
+}
+.phone1{
+    color: white;
+}
+.phone2{
+     font-family: "Handlee", cursive ;
+}
+.phone3{
+    font-family: "Nunito", sans-serif;
+}
+.icon7{
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    color: #17a2b8;
+}
+.three{
+    /* border: 1px solid; */
+    padding: 20px;
+    width: 40%;
+}
+.quick{
+    color: #17a2b8;
+    font-family: "Handlee", cursive ;
+    font-size: 25px;
+}
+.links{
+   
+    line-height: 1.9;
+     font-family: "Nunito", sans-serif;
+    
+}
+.link1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    min-width: 100px;
+    /* border: 1px solid; */
+    
+}
+.links a{
+     text-decoration: none !important;
+    color: white;  
+}
+.link11{
+    position: relative;
+    right: 40px;
+}
+.link22{
+    position: relative;
+    right: 21px;
+}
+.link33{
+    position: relative;
+    right: 3px;
+}
+.link44{
+    position: relative;
+   left: 4px;
+}
+.link55{
+    position: relative;
+    right: 20px;
+}
+.link66{
+    position: relative;
+    right: 7px;
+}
+.four{
+    /* border: 1px solid; */
+    padding: 20px;
+    width: 40%;
+}
+.news{
+    color:#17a2b8;
+    font-family: "Handlee", cursive ;
+    font-size: 25px;
+}
+.name{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.input1{
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: #17a2b8;
+    color: white;
+    font-size: 18px;
+     font-family: "Nunito", sans-serif;
+}
+.popup{
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+.first2{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.wrapper1{
+    /* border: 1px solid; */
+    width: 90%;
+    font-family: "Nunito", sans-serif;
+}
+.border{
+     border: 1px solid rgb(105, 105, 105);
+} 
+.line{
+    text-align: center;
+    color: white;
+}
+.line1{
+    text-align: center;
+    color: white;
+}
+.color{
+    color:#17a2b8;
+}
+@media screen and (max-width:576px) {
+    .first{
+        width: 100%;
+    }
+    .first1{
+       width: 100%;
+    }
+    .wrapper{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        width: 90%;  
+    }
+    .logo{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .second{
+        width: 90%;
+        /* border: 1px solid; */
+    }
+    .three{
+        width: 90%;
+        /* border: 1px solid; */
+    }
+    .four{
+        width: 100%;
+    }
+    
+    .link11{
+        position: relative;
+       right: 65px;
+    }
+     .link22{
+        position: relative;
+       right: 48px;
+    }
+     .link33{
+        position: relative;
+       right: 30px;
+    }
+     .link44{
+        position: relative;
+       left: -25px;
+    }
+     .link55{
+        position: relative;
+       right: 50px;
+    }
+     .link66{
+        position: relative;
+       right: 37px;
+    }
+    .name{
+        width: 100%;
+        /* border: 1px solid; */
+        padding: none;
+        position: relative;
+        right: 20px;
+    }
+    .pic{
+        padding: none;
+        gap: 10px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    .first{
+        width: 100%;
+    }
+    .first1{
+       width: 100%;
+    }
+    .wrapper{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        width: 90%;  
+    }
+    .logo{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .second{
+        width: 90%;
+        /* border: 1px solid; */
+    }
+    .three{
+        width: 90%;
+        /* border: 1px solid; */
+    }
+    .four{
+        width: 100%;
+    }
+    .link1{
+        /* border: 1px solid; */
+        min-width: 100px;
+    }
+    .link11{
+        position: relative;
+       right: 65px;
+    }
+     .link22{
+        position: relative;
+       right: 48px;
+    }
+     .link33{
+        position: relative;
+       right: 30px;
+    }
+     .link44{
+        position: relative;
+       left: -25px;
+    }
+     .link55{
+        position: relative;
+       right: 50px;
+    }
+     .link66{
+        position: relative;
+       right: 37px;
+    }
+    .name{
+        width: 100%;
+        /* border: 1px solid; */
+        padding: none;
+        position: relative;
+        right: 20px;
+    }
+    .pic{
+        padding: none;
+        gap: 10px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .first{
+        width: 100%;
+    }
+    .first1{
+       width: 100%;
+    }
+    .wrapper{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        width: 90%;  
+    }
+    .logo{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .second{
+        width: 90%;
+        /* border: 1px solid; */
+    }
+    .three{
+        width: 90%;
+        /* border: 1px solid; */
+    }
+    .four{
+        width: 100%;
+    }
+    .link1{
+        /* border: 1px solid; */
+       width: 70%;
+       
+    }
+    .link11{
+        position: relative;
+       right: 65px;
+    }
+     .link22{
+        position: relative;
+       right: 48px;
+    }
+     .link33{
+        position: relative;
+       right: 30px;
+    }
+     .link44{
+        position: relative;
+       left: -25px;
+    }
+     .link55{
+        position: relative;
+       right: 50px;
+    }
+     .link66{
+        position: relative;
+       right: 37px;
+    }
+    .name{
+        width: 60%;
+        /* border: 1px solid; */
+        padding: 10px;
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+    .pic{
+        width: 300px;
+        padding: none;
+        gap: 10px;
+    }
+    .link{
+        width: 50%;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1024px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .one{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .three{
+        width: 100%;
+    }
+    .four{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .one{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .three{
+        width: 100%;
+    }
+    .four{
+        width: 100%;
+    }
+}
