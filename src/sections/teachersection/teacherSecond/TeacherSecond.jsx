@@ -1,15 +1,10 @@
 import React from "react";
-import img1 from "../../../Assests/team-1.jpg";
-import img2 from "../../../Assests/team-2.jpg";
-import img3 from "../../../Assests/team-3.jpg";
-import img4 from "../../../Assests/team-4.jpg";
 import container from "./TeacherSecond.module.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
 const TeacherSecond = () => {
-  const [name, setName] = useState("");
-  const [profession, setProfession] = useState("");
+ 
   const [data, setData] = useState([]);
 
   const get_mentor = async () => {
